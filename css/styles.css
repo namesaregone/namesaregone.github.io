@@ -90,6 +90,12 @@ nav {
   color: white;
 }
 
+.caption p {
+  font-family: 'Slabo 27px', serif;
+  font-size: 24px;
+  color: white;
+}
+
 .caption {
   position: absolute;
   left: 0;
