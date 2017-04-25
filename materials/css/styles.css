@@ -1,0 +1,164 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  background-color: #f7f7f7;
+}
+
+body {
+  padding-top: 55px;
+}
+
+nav {
+  border-bottom: 0px;
+  letter-spacing: 7px; 
+}
+
+.navbar-brand {
+  letter-spacing: 4px;
+  font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.navbar a:hover {
+   
+    color: #FFFF00 !important;
+}
+
+.lowercase {
+  font-size: xx-large;
+}
+
+.nav-link {
+  margin-right: 30px;
+  font-family: 'Slabo 27px', serif;
+  
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7 {
+  position: relative;
+  opacity: 0.99;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.img1 {
+  background-image: url("../images/Desperado01.jpg");
+  min-height: 100%;
+}
+
+.img2 {
+  background-image: url("../images/Desperado04.jpg");
+  min-height: 100%;
+}
+
+.img3 {
+  background-image: url("../images/Desperado02.jpg");
+  min-height: 100%;
+}
+
+.img4 {
+  background-image: url("../images/naked01.jpg");
+  min-height: 100%;
+}
+
+.img5 {
+  background-image: url("../images/naked02.jpg");
+  min-height: 100%;
+}
+
+.img6 {
+  background-image: url("../images/naked03.jpg");
+  min-height: 100%;
+}
+
+.img7 {
+  background-image: url("../images/apiarist_sketch.gif");
+  min-height: 100%;
+}
+
+.vid1 {
+  background-image: url("https://player.vimeo.com/video/185184466");
+
+}
+
+.fa-arrow-circle-down {
+  font-size: 64px;
+  color: white;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.caption span.overlay {
+  background-color: transparent;
+  font-size: 25px;
+  color: #f7f7f7;
+}
+
+
+.space-text p, h3{
+  color: #ddd;
+  background-color: #292B2C;
+  margin: 0;
+  text-align: justify;
+  
+}
+
+.space-text p {
+  padding: 3rem 4rem;
+}
+
+p.slim {
+  padding-top: 0px;
+}
+
+h3 {
+  padding-top: 3rem;
+  letter-spacing: 1rem;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  text-align: center;
+}
+
+h3.long {
+  letter-spacing: .75rem;
+  font: 20px/1.5 "Lato", sans-serif;
+  text-align: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+#fullpanel {
+  background-color: #292B2C;
+  padding-top: 5rem;
+
+}
+
+#contact {
+  color: white;
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .img1, .img2, .img3 {
+        background-attachment: scroll;
+    }
+}
